@@ -5,14 +5,9 @@ import { AppComponent } from './app.component';
 import { CloudAppComponent } from './cloud-app/cloud-app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CloudAppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, CloudAppComponent],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
